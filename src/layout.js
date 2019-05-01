@@ -50,20 +50,8 @@ const styles = theme => ({
   cardMedia: {
     width: 160,
   },
-  markdown: {
-    padding: `${theme.spacing.unit * 3}px 0`,
-  },
-  sidebarAboutBox: {
-    padding: theme.spacing.unit * 2,
-    backgroundColor: theme.palette.grey[200],
-  },
-  sidebarSection: {
-    marginTop: theme.spacing.unit * 3,
-  },
-  footer: {
-    backgroundColor: theme.palette.background.paper,
-    marginTop: theme.spacing.unit * 8,
-    padding: `${theme.spacing.unit * 6}px 0`,
+
+   
   },
 });
 
