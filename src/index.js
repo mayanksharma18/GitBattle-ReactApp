@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 
 import CenteredGrid from './InputUsers'
 import * as serviceWorker from './serviceWorker';
+import AppRouter from './Rout'
 
 
-ReactDOM.render(<CenteredGrid/>, document.getElementById('root'));
+
+ReactDOM.render(<AppRouter/>, document.getElementById('root'));
+// ReactDOM.render(<CenteredGrid/>, document.getElementById('root'));
 
 // ReactDOM.render(<Blog/>, document.getElementById('root'));
 
